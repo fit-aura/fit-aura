@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>FitAura çalışıyor 🚀</h1>;
-}
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>🚀 FitAura Çalışıyor!</h1>
+      <p>Hoş geldin, burası ana sayfa.</p>
+    </div>
+  );
